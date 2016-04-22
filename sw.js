@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-navigator.serviceWorker.register('service_worker.js').then(function (registration) {
+navigator.serviceWorker.register('https://github.com/anshulix/service-worker/blob/master/service_worker.js').then(function (registration) {
     // Registration was successful
     console.log('ServiceWorker registration successful with scope: ', registration.scope);
 
